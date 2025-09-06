@@ -9,6 +9,9 @@
 
     <title>BotFlix - Seu assistente pessoal para encontrar o filme perfeito</title>
 
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+
 </head>
 
 <body>
@@ -19,9 +22,17 @@
 
             <header class="brand-header">
 
-                <img src="src/images/botflix-robot.jpg" alt="Assistente robô BotFlix">
+                <div class="container-logo">
 
-                <h1>BotFlix</h1>
+                    <img src="src/images/botflix-robot.jpg" alt="Assistente robô BotFlix" class="robot-image">
+
+                    <h1 class="brand-title">BotFlix</h1>
+
+                </div>
+
+                <p class="brand-subtitle">
+                    Seu assistente pessoal para encontrar o filme perfeito
+                </p>
 
             </header>
 
@@ -32,40 +43,39 @@
                     <div class="input-container">
 
                         <textarea rows="3" id="mood-textarea"
-                            placeholder="Digite como você está se sentindo ou quer assistir..." class="mood-textarea">
-
-                        </textarea>
-
-                        <div class="examples">
-
-                            <h3 class="examples-title">Exemplos:</h3>
-
-                            <ul class="examples-list">
-
-                                <li>Quero algo engraçado para relaxar depois do trabalho.</li>
-
-                                <li>Estou a fim de um filme de ação com muita adrenalina.</li>
-
-                                <li>Procuro um drama emocionante e inspirador.</li>
-
-                            </ul>
-
-                        </div>
-
-                        <button id="search-button" class="search-button">
-
-                            <span class="play-icon">&#9654;</span>
-
-                            Encontrar Filmes Perfeitos
-                        </button>
+                            placeholder="Digite como você está se sentindo ou quer assistir..."
+                            class="mood-textarea"></textarea>
 
                     </div>
+
+                    <div class="examples">
+
+                        <h3 class="examples-title">Exemplos:</h3>
+
+                        <ul class="examples-list">
+
+                            <li>Quero algo engraçado para relaxar depois do trabalho.</li>
+
+                            <li>Estou a fim de um filme de ação com muita adrenalina.</li>
+
+                            <li>Procuro um drama emocionante e inspirador.</li>
+
+                        </ul>
+
+                    </div>
+
+                    <button id="search-button" class="search-button">
+
+                        <span class="play-icon">&#9654;</span>
+
+                        Encontrar Filmes Perfeitos
+                    </button>
 
                 </div>
 
             </section>
 
-            <div id="results">
+            <div id="results" class="results">
 
                 <h2>Filmes Perfeitos para Você</h2>
 

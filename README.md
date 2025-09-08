@@ -33,6 +33,7 @@
 - JavaScript (Vanilla)
 - N8N (automation workflows)
 - Gemini AI (intelligent suggestions)
+- Movie API - TMDB
 - Git and GitHub
 
 <br>
@@ -45,5 +46,11 @@
 * Press Enter to get a suggestion, for even faster interaction
 * Automation and AI integration
 * Fun and engaging way to decide what to watch
+
+<br>
+
+## 📜 License
+
+* This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 <br>

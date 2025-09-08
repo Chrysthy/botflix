@@ -1,7 +1,7 @@
 <h1 align="center"> BotFlix 🎬 </h1>
 
 <p align="center">
-    
+    BotFlix helps you pick a movie quickly and easily. Just choose your mood or preference and, with one click, it suggests the perfect film for your next watch.
 </p>
 
 <p align="center">

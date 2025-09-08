@@ -21,3 +21,14 @@
 <img src=".github/gif-do-projeto.gif" alt="gif do projeto">
 
 <br>
+
+## 🛠 Technologies
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)
+- N8N
+- Gemini
+- Git and GitHub
+
+<br>

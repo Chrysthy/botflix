@@ -36,3 +36,14 @@
 - Git and GitHub
 
 <br>
+
+## ✨ Features
+
+* Movie suggestions based on the user’s mood or preference
+* Simple and intuitive interface
+* One-click recommendations for quick results
+* Press Enter to get a suggestion, for even faster interaction
+* Automation and AI integration
+* Fun and engaging way to decide what to watch
+
+<br>

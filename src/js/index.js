@@ -33,7 +33,7 @@ async function handleSearch() {
 
     }
 
-    const response = await fetch('https://chrys123.app.n8n.cloud/webhook-test/botflix', {
+    const response = await fetch('https://chrys123.app.n8n.cloud/webhook/botflix', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -44,7 +44,7 @@ async function handleSearch() {
     const data = await response.json();
 
     if (data && data.results.length > 0) {
-        
+
         const movie = data.results[0];
 
         const posterUrl = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
